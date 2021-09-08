@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <!-- ISBN -->
+    <dc:identifier id="bookid" opf:scheme="ISBN">urn:isbn:[ISBN]</dc:identifier>
+    <dc:title>Title</dc:title>
+    <dc:rights>Copyright © [YEAR] [COPYRIGHT HOLDER]. All rights reserved.</dc:rights>
+
+    <!-- BISAC Subject Headings List: http://bisg.org/?page=BISACFaQ -->
+    <dc:subject>[LIST / OF / SUBJECTS]</dc:subject>
+
+    <dc:creator opf:file-as="[LASTNAME, NAME]" opf:role="aut">[NAME LASTNAME]</dc:creator>
+
+    <dc:source>[SOURCE URL]</dc:source>
+
+    <!-- List of contributors
+
+         See: MARC Code List for Relators: http://www.loc.gov/marc/relators/relaterm.html
+
+         Examples:
+
+         * Editor [edt]
+           Use for a person or organization who prepares for publication a work not primarily his/her own,
+           such as by elucidating text, adding introductory or other critical matter, or technically directing
+           an editorial staff.
+
+         * Cover designer [cov]
+           Use for a person or organization responsible for the graphic design of a book cover,
+           album cover, slipcase, box, container, etc. For a person or organization responsible
+           for the graphic design of an entire book, use Book designer; for book jackets, use Bookjacket designer.
+
+         * Translator [trl]
+           Use for a person or organization who renders a text from one language into another, or from an older
+           form of a language into the modern form.
+
+         -->
+
+    <dc:contributor opf:file-as="[LASTNAME, NAME]" opf:role="edt">[NAME LASTNAME]</dc:contributor>
+    <dc:contributor opf:file-as="[LASTNAME, NAME]" opf:role="cov">[NAME LASTNAME]</dc:contributor>
+
+    <dc:publisher>[PUBLISHER NAME]</dc:publisher>
+    <dc:date opf:event="publication">2012-01-01</dc:date>
+
+    <!-- Language code: http://en.wikipedia.org/wiki/List_of_ISO_639-2_codes -->
+    <dc:language>en</dc:language>
+
+    <meta name="cover" content="[COVER_NAME].jpg" />
+
+    <!-- UUID generator: http://www.famkruithof.net/uuid/uuidgen -->
+    <dc:identifier opf:scheme="UUID">urn:uuid:[UUID]</dc:identifier>
+
+  </metadata>
+
+  <!-- MANIFEST (mandatory)
+       List of all the resources of the book (XHTML, CSS, images,…).
+       The order of item elements in the manifest is NOT significant.
+
+       http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.3
+  -->
+
+  <manifest>
+   <item href="Styles/style.css" id="css" media-type="text/css" />
+    <item href="Images/Boku dake ga Inai Machi v01 c001 - 001Sanbe Kei.jpg" id="image-0" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 001Sanbe Kei.xhtml" id="html-0" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 002Sanbe Kei.jpg" id="image-1" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 002Sanbe Kei.xhtml" id="html-1" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 003Sanbe Kei.jpg" id="image-2" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 003Sanbe Kei.xhtml" id="html-2" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 004Sanbe Kei.jpg" id="image-3" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 004Sanbe Kei.xhtml" id="html-3" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 005Sanbe Kei.jpg" id="image-4" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 005Sanbe Kei.xhtml" id="html-4" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 006Sanbe Kei.jpg" id="image-5" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 006Sanbe Kei.xhtml" id="html-5" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 007Sanbe Kei.jpg" id="image-6" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 007Sanbe Kei.xhtml" id="html-6" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 008Sanbe Kei.jpg" id="image-7" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 008Sanbe Kei.xhtml" id="html-7" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 009Sanbe Kei.jpg" id="image-8" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 009Sanbe Kei.xhtml" id="html-8" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 010Sanbe Kei.jpg" id="image-9" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 010Sanbe Kei.xhtml" id="html-9" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 011Sanbe Kei.jpg" id="image-10" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 011Sanbe Kei.xhtml" id="html-10" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 012Sanbe Kei.jpg" id="image-11" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 012Sanbe Kei.xhtml" id="html-11" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 013Sanbe Kei.jpg" id="image-12" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 013Sanbe Kei.xhtml" id="html-12" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 014Sanbe Kei.jpg" id="image-13" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 014Sanbe Kei.xhtml" id="html-13" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 015Sanbe Kei.jpg" id="image-14" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 015Sanbe Kei.xhtml" id="html-14" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 016Sanbe Kei.jpg" id="image-15" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 016Sanbe Kei.xhtml" id="html-15" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 017Sanbe Kei.jpg" id="image-16" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 017Sanbe Kei.xhtml" id="html-16" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 018Sanbe Kei.jpg" id="image-17" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 018Sanbe Kei.xhtml" id="html-17" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 019Sanbe Kei.jpg" id="image-18" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 019Sanbe Kei.xhtml" id="html-18" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 020Sanbe Kei.jpg" id="image-19" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 020Sanbe Kei.xhtml" id="html-19" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 021Sanbe Kei.jpg" id="image-20" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 021Sanbe Kei.xhtml" id="html-20" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 022Sanbe Kei.jpg" id="image-21" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 022Sanbe Kei.xhtml" id="html-21" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 023Sanbe Kei.jpg" id="image-22" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 023Sanbe Kei.xhtml" id="html-22" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 024Sanbe Kei.jpg" id="image-23" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 024Sanbe Kei.xhtml" id="html-23" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 025Sanbe Kei.jpg" id="image-24" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 025Sanbe Kei.xhtml" id="html-24" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 026Sanbe Kei.jpg" id="image-25" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 026Sanbe Kei.xhtml" id="html-25" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 027Sanbe Kei.jpg" id="image-26" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 027Sanbe Kei.xhtml" id="html-26" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 028Sanbe Kei.jpg" id="image-27" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 028Sanbe Kei.xhtml" id="html-27" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 029Sanbe Kei.jpg" id="image-28" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 029Sanbe Kei.xhtml" id="html-28" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 030Sanbe Kei.jpg" id="image-29" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 030Sanbe Kei.xhtml" id="html-29" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 031Sanbe Kei.jpg" id="image-30" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 031Sanbe Kei.xhtml" id="html-30" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 032Sanbe Kei.jpg" id="image-31" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 032Sanbe Kei.xhtml" id="html-31" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 033Sanbe Kei.jpg" id="image-32" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 033Sanbe Kei.xhtml" id="html-32" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 034Sanbe Kei.jpg" id="image-33" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 034Sanbe Kei.xhtml" id="html-33" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 035Sanbe Kei.jpg" id="image-34" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 035Sanbe Kei.xhtml" id="html-34" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 036Sanbe Kei.jpg" id="image-35" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 036Sanbe Kei.xhtml" id="html-35" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 037Sanbe Kei.jpg" id="image-36" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 037Sanbe Kei.xhtml" id="html-36" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 038Sanbe Kei.jpg" id="image-37" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 038Sanbe Kei.xhtml" id="html-37" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 039Sanbe Kei.jpg" id="image-38" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 039Sanbe Kei.xhtml" id="html-38" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 040Sanbe Kei.jpg" id="image-39" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 040Sanbe Kei.xhtml" id="html-39" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 041Sanbe Kei.jpg" id="image-40" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 041Sanbe Kei.xhtml" id="html-40" media-type="application/xhtml+xml" />
+<item href="Images/Boku dake ga Inai Machi v01 c001 - 042Sanbe Kei.jpg" id="image-41" media-type="image/jpeg" />
+<item href="Text/Boku dake ga Inai Machi v01 c001 - 042Sanbe Kei.xhtml" id="html-41" media-type="application/xhtml+xml" />
+
+  </manifest>
+
+  <!-- SPINE (mandatory)
+
+       The spine element defines the default reading order of the content. It doesn't list every file in the manifest,
+       just the reading order.
+
+       The value of the idref tag in the spine has to match the ID tag for that entry in the manifest.
+
+       For example, if you have the following reference in your manifest:
+
+          <item id="chapter-1" href="chapter01.xhtml" media-type="application/xhtml+xml" />
+
+       your spine entry would be:
+
+          <itemref idref="chapter-1" />
+
+       http://idpf.org/epub/20/spec/OPF_2.0.1_draft.htm#Section2.4
+
+       -->
+  <spine toc="ncx">
+    <itemref idref="html-0" />
+<itemref idref="html-1" />
+<itemref idref="html-2" />
+<itemref idref="html-3" />
+<itemref idref="html-4" />
+<itemref idref="html-5" />
+<itemref idref="html-6" />
+<itemref idref="html-7" />
+<itemref idref="html-8" />
+<itemref idref="html-9" />
+<itemref idref="html-10" />
+<itemref idref="html-11" />
+<itemref idref="html-12" />
+<itemref idref="html-13" />
+<itemref idref="html-14" />
+<itemref idref="html-15" />
+<itemref idref="html-16" />
+<itemref idref="html-17" />
+<itemref idref="html-18" />
+<itemref idref="html-19" />
+<itemref idref="html-20" />
+<itemref idref="html-21" />
+<itemref idref="html-22" />
+<itemref idref="html-23" />
+<itemref idref="html-24" />
+<itemref idref="html-25" />
+<itemref idref="html-26" />
+<itemref idref="html-27" />
+<itemref idref="html-28" />
+<itemref idref="html-29" />
+<itemref idref="html-30" />
+<itemref idref="html-31" />
+<itemref idref="html-32" />
+<itemref idref="html-33" />
+<itemref idref="html-34" />
+<itemref idref="html-35" />
+<itemref idref="html-36" />
+<itemref idref="html-37" />
+<itemref idref="html-38" />
+<itemref idref="html-39" />
+<itemref idref="html-40" />
+<itemref idref="html-41" />
+
+  </spine>
+
+
+</package>

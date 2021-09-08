@@ -165,15 +165,7 @@ contentOpfPath = textPath = os.path.join(os.path.dirname(os.path.realpath(__file
 with open(contentOpfPath, "wb") as f:
     f.write(contentOpf.encode("utf-8"))
 
-"""
-def zipdir(path, ziph):
-    # ziph is zipfile handle
-    for root, dirs, files in os.walk(path):
-        for file in files:
-            ziph.write(os.path.join(root, file),
-                       os.path.relpath(os.path.join(root, file),
-                                       os.path.join(path, '..')))
 
-test = zipfile.ZipFile('test.epub', 'w')
-zipdir(os.path.dirname(os.path.realpath(__file__)) + "/epub extracted/epub-boilerplate/book/", test)
-"""
+import shutil
+shutil.make_archive("test", 'zip', os.path.dirname(os.path.realpath(__file__)) + "/epub extracted/epub-boilerplate/book")
+os.rename("test.zip", "test.epub")
